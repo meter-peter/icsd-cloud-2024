@@ -67,7 +67,6 @@ func GetUser(db *gorm.DB) gin.HandlerFunc {
 // @Success 201 {object} models.User
 // @Failure 400 {object} map[string]string
 // @Router /users [post]
-
 func CreateUser(db *gorm.DB) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		var newUser models.User
