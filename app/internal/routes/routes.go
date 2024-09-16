@@ -12,4 +12,5 @@ func SetupRoutes(r *gin.Engine, db *gorm.DB) {
 	r.POST("/users", handlers.CreateUser(db))
 	r.PUT("/users/:id", handlers.UpdateUser(db))
 	r.DELETE("/users/:id", handlers.DeleteUser(db))
+	r.GET("/users/search", handlers.SearchUsers(db))
 }
