@@ -27,7 +27,7 @@ func main() {
 		log.Println("No .env file found, using environment variables")
 	}
 
-	// Get database configuration from environment variables
+	//If not found use the static alternatives
 	dbHost := getEnv("DB_HOST", "localhost")
 	dbUser := getEnv("DB_USER", "postgres")
 	dbPassword := getEnv("DB_PASSWORD", "")
