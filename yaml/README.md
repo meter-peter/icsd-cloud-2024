@@ -49,7 +49,7 @@
 
 2. Φόρτωση της εικόνας Docker στο cluster:
    ```
-   kind load docker-image restful-service
+   kind load docker-image restful-service:latest
    ```
 
 3. Εφαρμογή των YAML αρχείων:
