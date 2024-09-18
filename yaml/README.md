@@ -68,7 +68,7 @@
 Για να αποκτήσετε πρόσβαση στην εφαρμογή:
 
 ```
-kubectl port-forward service/restful-service 8080:80
+kubectl port-forward service/restful-service 8080:8080
 ```
 
 Η εφαρμογή θα είναι διαθέσιμη στο `http://localhost:8080`.
