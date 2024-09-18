@@ -43,7 +43,7 @@ func main() {
 	}
 
 	// Auto Migrate the schema
-	db.AutoMigrate(&models.User{})
+	db.AutoMigrate(&models.User{})d
 
 	r := gin.Default()
 
