@@ -4,7 +4,6 @@ metadata:
   name: postgres-init-script
 data:
   init.sql: |
-    -- Το περιεχόμενο του init.sql script σας
     CREATE TABLE IF NOT EXISTS users (
       id UUID PRIMARY KEY,
       created_at TIMESTAMP WITH TIME ZONE,
